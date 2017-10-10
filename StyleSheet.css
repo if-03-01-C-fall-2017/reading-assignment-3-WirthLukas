@@ -1,0 +1,63 @@
+ul.a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+ul.a > li {
+    float: left;
+}
+ul.a > li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+ul.a > li a:hover {
+    background-color: #111111;
+}
+
+body{
+	background-image: url("https://www.meine-erste-homepage.com/bild0003.jpg");
+	text-align: center;
+}
+article{
+	background-image: url("https://www.meine-erste-homepage.com/bild0041.jpg");
+	border: 10px solid darkblue;
+}
+
+h1, h2, h3, h4, p, li{
+	font-family: arial, sans-serif;
+}
+p, li, pre{
+	font-size: 17px;
+}
+h1{	
+	font-size: 40px;
+	color: blue;
+}
+h2{
+	font-size: 30px;
+	color: green;
+}
+h3{
+	font-size: 25px;
+	color: gray;
+}
+h4{
+	font-size: 20px;
+}
+li{
+	text-align: justify; 
+}
+pre{
+	font-style: italic;
+	text-align: left;
+}
+th, td{
+	border-style: double;
+	border-color: red;
+	border-width: medium;
+}
